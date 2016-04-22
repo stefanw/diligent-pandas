@@ -2,6 +2,7 @@
 
 `diligent` is a data proofing tool for pandas dataframes, best used in Jupyter notebooks.
 
+Please see the **[Jupyter notebook for basic use](diligent_demo.ipynb)**.
 
 Run `diligent` on your dataframes.
 
@@ -11,7 +12,11 @@ Run `diligent` on your dataframes.
 
 Run only certain kinds of checks.
 
-        diligent(df, include='basic')
+    diligent(df, include='basic')
+
+Exclude certain checks.
+
+    diligent(df, exclude='nelson')
 
 Run in verbose mode:
 
